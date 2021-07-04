@@ -17,7 +17,7 @@ export default function Modal({show,close,url}) {
                                         <FiX className=""/>
                                     </div>
                                     <div className="">
-                                        <iframe title="titsd" className="w-full" style={{height:"60vh"}} src={`http://www.youtube.com/embed/${url}?autoplay=1`} frameBorder="0" allowFullScreen="allowfullscreen"></iframe>
+                                        <iframe title="titsd" className="w-full" style={{height:"60vh"}} src={`https://www.youtube.com/embed/${url}?autoplay=1`} frameBorder="0" allowFullScreen="allowfullscreen"></iframe>
                                     </div>
                                 </div>
                             </div>
